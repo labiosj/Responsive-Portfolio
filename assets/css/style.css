@@ -1,0 +1,275 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #4aaaa5;
+    color: #777777
+
+}
+
+.navbarNav {
+    float: left
+}
+
+.MyHeading {
+    color: white;
+    top: 0;
+    left: 0;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    border-bottom: solid #cccccc 2px;
+
+}
+
+#me {
+    
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    text-align: middle;
+   padding-left: 5px;
+    padding-top: 20px;
+    padding-right: 5px
+
+}
+
+.container{
+    margin: 0 auto;
+    width: 960px;
+    height: 50px
+}
+
+.content {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    margin: 0 auto;
+    margin-top: 90px;
+    margin-bottom: 36px;
+    width: 960px;
+    padding: 30px;
+    flex: 1 0 auto;
+    overflow: auto
+}
+
+.heading {
+    color: #4aaaa5;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 26px;
+    border-bottom: 4px;
+    border-bottom: solid #777777
+}
+
+
+.footnote {
+    background-color: #666666
+    
+}
+
+.PIC {
+   width: 200px;
+   height: 200px;
+   float: left;
+    transform: rotate(90deg);
+    
+}
+
+a {
+    display: inline;
+    float: right;
+}
+
+strong {
+    display: inline;
+    float: left;
+
+}
+
+.words {
+    padding-left: 210px;
+    
+}
+
+.row1{
+    position: relative;
+    float: left;
+    width: 960px;
+    height: 150px;
+    overflow: auto;
+    background-color: #ffffff;
+}
+
+.row2{
+    position: relative;
+    padding-top: 20px;
+    float: left;
+    width: 960px;
+    height: 150px;
+    overflow: auto;
+    background-color: #ffffff;
+}
+
+.row3{
+    position: relative;
+    padding-top: 20px;
+    float: left;  
+    width: 960px;
+    height: 150px; 
+    overflow: auto;
+    background-color: #ffffff;
+}
+
+.img1{
+    width: 200px;
+    height: 150px;  
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.textbox1{
+    width: 200px;
+    height: 25px;
+    padding-top:5px;
+    position: absolute;
+    bottom: 0%;
+    background-color: #4aaaa5;
+    color: #fff;
+    text-align: center;
+}
+
+.img2{
+    width: 200px;
+    height: 150px;  
+    position: absolute;
+    left: 25.71%;
+}
+
+.textbox2{
+    width: 200px;
+    height: 25px;
+    padding-top:5px;
+    position: absolute;
+    bottom: 0%;
+    background-color: #4aaaa5;
+    color: #fff;
+    text-align: center;
+    left: 25.71%;
+}
+
+.img3{
+    width: 200px;
+    height: 150px;  
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding-top: 20px
+}
+
+.textbox3{
+    width: 200px;
+    height: 25px;
+    padding-top:5px;
+    position: absolute;
+    bottom: 0%;
+    background-color: #4aaaa5;
+    color: #fff;
+    text-align: center;
+}
+
+.img4{
+    width: 200px;
+    height: 150px;  
+    position: absolute;
+    left: 25.71%;
+}
+
+.textbox4{
+    width: 200px;
+    height: 25px;
+    padding-top:5px;
+    position: absolute;
+    bottom: 0%;
+    background-color: #4aaaa5;
+    color: #fff;
+    text-align: center;
+    left:25.71%;
+}
+
+.img5{
+    width: 200px;
+    height: 150px;  
+    position: absolute;
+}
+
+.textbox5{
+    width: 200px;
+    height: 25px;
+    padding-top:5px;
+    position: absolute;
+    bottom: 0%;
+    background-color: #4aaaa5;
+    color: #fff;
+    text-align: center;
+}
+
+@media screen and (max-width: 980px) {
+    .PIC {
+        padding: 20px;
+        max-width: 980px;
+    }
+    .content {
+        padding: 20px;
+        max-width: 980px;
+    }   
+    .MyHeading{
+        padding: 20px;
+        max-width: 980px;
+    }
+    .row1, .row2, .row3 {
+        padding: 20px;
+        max-width: 980px;
+    }
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (max-width : 768px) {
+    .PIC {
+        padding: 20px;
+        max-width: 768px;
+    }
+    .content {
+        padding: 20px;
+        max-width: 768px;
+    }
+    .MyHeading {
+        padding: 20px;
+        max-width: 768px;
+    }
+    .row1, .row2, .row3 {
+        padding: 20px;
+        max-width: 768px;
+    }
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (max-width : 640px) {
+    .PIC {
+        padding: 20px;
+        max-width: 640px;
+    }
+    .content {
+        padding: 20px;
+        max-width: 640px;
+    }
+
+    .MyHeading {
+        padding: 20px;
+        max-width: 640px;
+    }  
+    .row1, .row2, .row3 {
+        padding: 20px;
+        max-width: 640px;
+    } 
+    
+}
